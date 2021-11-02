@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.main {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.header {
+  padding: 30px 0;
+  background-color: tomato;
+  overflow: hidden;
+}
+
+.header .logo {
+  float: left;
+  margin-left: 35px;
+}
+
+.header .logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .menu {
+  float: right;
+}
+
+.header .menu ul {
+  list-style: none;
+}
+
+.header .menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header .menu ul li a {
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 2px;
+}
+
+.header .menu ul li a:hover {
+  background-color: #fff;
+  color: tomato;
+}
+
+.service {
+  overflow: hidden;
+}
+
+.service .single_service {
+  float: left;
+  width: 313px;
+  margin: 30px 0;
+  margin-right: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.service .single_service h2 {
+  font-size: 30px;
+}
+
+.service .single_service p {
+  text-transform: lowercase;
+  margin-bottom: 30px;
+}
+
+.service .single_service a {
+  text-decoration: none;
+  padding: 12px 17px;
+  background-color: tomato;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 2px;
+}
+
+.service .single_service a:hover {
+  background-color: #fff;
+  color: tomato;
+  border: 1px solid tomato;
+}
+
+.about {
+  padding: 20px;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  text-transform: lowercase;
+}
+
+.footer {
+  padding: 30px 0;
+  background-color: tomato;
+  text-align: center;
+}
+
+.footer span {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
